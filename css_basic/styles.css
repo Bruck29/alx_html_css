@@ -1,0 +1,29 @@
+body,
+main {
+  display: flex; /* Set both body and main as flex containers */
+}
+
+body {
+  flex-direction: column; /* Stack elements in body as columns */
+}
+
+main {
+  flex: auto; /* Let main content fill remaining space */
+  width: 100%; /* Ensure main takes full width */
+}
+
+article,
+aside {
+  flex: 1; /* Set default flex value for both */
+}
+
+article {
+  flex: 2; /* Allocate article 2/3 of available space */
+  overflow-y: auto; /* Enable vertical scrolling in article */
+}
+
+aside {
+  flex: 1; /* Allocate aside 1/3 of available space */
+  overflow-y: auto; /* Enable vertical scrolling in aside */
+}
+
