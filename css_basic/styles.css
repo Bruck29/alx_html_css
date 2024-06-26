@@ -1,29 +1,21 @@
-body,
-main {
-  display: flex; /* Set both body and main as flex containers */
+body , main{
+    display: flex;
+    background: #ececec;
 }
-
-body {
-  flex-direction: column; /* Stack elements in body as columns */
+body{
+    flex-direction: column;
 }
-
-main {
-  flex: auto; /* Let main content fill remaining space */
-  width: 100%; /* Ensure main takes full width */
+main{
+    flex-direction: row;
+    flex: auto;
 }
-
-article,
-aside {
-  flex: 1; /* Set default flex value for both */
+article{
+    flex: 2;
+    overflow-y: auto;
+    background: #9fd3c7;
 }
-
-article {
-  flex: 2; /* Allocate article 2/3 of available space */
-  overflow-y: auto; /* Enable vertical scrolling in article */
+aside{
+    flex: 1;
+    overflow-y: auto;
+    background: #385170;
 }
-
-aside {
-  flex: 1; /* Allocate aside 1/3 of available space */
-  overflow-y: auto; /* Enable vertical scrolling in aside */
-}
-
