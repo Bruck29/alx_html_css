@@ -94,4 +94,27 @@ body {
     
   }
   
+  .second-section {
+    display: flex;
+    padding: 50px 0;
+    background-color: #C271FF;
+    margin: auto;
+  }
   
+  .second-section blockquote {
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+  }
+  .second-section h3 {
+    color: #FFFFFF;
+  }
+  .second-section p{
+    color: #FFFFFF;
+  }
+  
+  .second-section img {
+    width: 100px;
+    border-radius: 50%;
+
+  }
