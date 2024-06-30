@@ -59,7 +59,6 @@ body {
     padding: 10px 20px;
     border: none;
     border-radius: 35px;
-    cursor: pointer;
     margin-top: 20px;
   }
   
@@ -118,3 +117,154 @@ body {
     border-radius: 50%;
 
   }
+
+  .popular-tutorials h2 {
+    text-align: center;  
+    margin: auto;
+  }
+
+  .popular-tutorials {
+       background-color: #FFFFFF;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       gap: 4px;
+       
+  }
+  
+ 
+  
+  .popular-tutorials .tutorial-card {
+    display: inline-block;  
+    margin: 1rem;  
+    text-align: center; 
+    width: 10rem  
+   
+  }
+  
+  .popular-tutorials .tutorial-card img {
+    width: 100%;  
+    height: 150px;  
+    object-fit: cover;  
+  }
+  
+  .popular-tutorials .tutorial-card h3 {
+    margin: 1rem 0;  
+  }
+  
+  .popular-tutorials .tutorial-card .instructor {
+    margin: 0.5rem 0;  
+    display: flex;  
+    align-items: center;  
+  }
+  
+  .popular-tutorials .tutorial-card .instructor img {
+    width: 40px;  
+    height: 40px;  
+    border-radius: 50%;  
+    margin-right: 0.5rem;
+  }
+  .rating{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .popular-tutorials .tutorial-card .rating {
+    margin: 0.5rem 0; 
+    flex-direction: row;
+  }
+  
+  .popular-tutorials .tutorial-card .rating i {
+    color: orange;  
+    font-size: 1rem; 
+ }
+  
+  .popular-tutorials .tutorial-card p {
+    margin-bottom: 0.5rem; 
+  }
+  .member{
+    background-color: #071629;
+  }
+  .member h2{
+    text-align: center;
+    margin: auto;
+    color: #fff;
+  }
+    .lorem p{
+        color: #FFFFFF;
+    }
+    .lorem h3{
+        color: #FFFFFF;
+    }
+    .lorem img{
+        
+    }
+  
+  .membership{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.membership .lorem{
+    padding: 0%;
+}
+
+.member button {
+    background-color: #C271FF;  
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-left: 50%;
+}
+.lastsection{
+    background-color: #FFFFFF;
+}
+.faq{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.lastsection h2 {
+    margin-bottom: 0.5rem;  
+    font-weight: bold;  
+    text-align: center;
+  }
+  
+  .faq p {
+    font-size: 0.9rem;  
+  }
+
+  footer {
+    background-color: #222;
+    padding: 2rem 0;
+    color: #ddd;   
+    text-align: center;  
+  }
+  
+  footer img {
+    max-width: 150px; 
+    display: block;   
+  }
+  
+  footer .social-icons {
+    display: inline-flex;  
+    justify-content: right; 
+  }
+  
+  footer .social-icons i {
+    font-size: 1.5rem; 
+    margin: 0 1rem;  
+    color: inherit;  
+  }
+  
+  footer p {
+    margin: 0; 
+  }
+  
+ 
